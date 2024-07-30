@@ -8,6 +8,7 @@ function App() {
     title: "",
     isChecked: false
   });
+  
   const [todos, setTodos] = useState(() => {
     // Initialize todos from localStorage
     const savedTodos = localStorage.getItem('todos');
